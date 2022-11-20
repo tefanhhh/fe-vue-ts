@@ -14,7 +14,7 @@
   }
 </script>
 <template>
-  <v-toolbar density="compact">
+  <v-toolbar density="compact" color="primary">
     <v-app-bar-nav-icon></v-app-bar-nav-icon>
     <v-toolbar-title>{{ getPageTitle }}</v-toolbar-title>
     <v-spacer></v-spacer>

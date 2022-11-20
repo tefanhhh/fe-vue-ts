@@ -7,7 +7,7 @@
   const { setPageTitle } = store
 
   onMounted(() => {
-    setPageTitle('Scaffolding.js')
+    setPageTitle('fe vue ts')
   })
 </script>
 <template>
