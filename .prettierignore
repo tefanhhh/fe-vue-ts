@@ -1,0 +1,9 @@
+node_modules
+public
+src/assets
+src/vite-env.d.ts
+package.json
+package-lock.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts

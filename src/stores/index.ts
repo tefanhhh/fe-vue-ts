@@ -5,13 +5,13 @@ class State {
 }
 
 export const useStore = defineStore('index', {
-  state: () => (new State()),
+  state: () => new State(),
   getters: {
-    getPageTitle: (state) => state.pageTitle
+    getPageTitle: state => state.pageTitle,
   },
   actions: {
     setPageTitle(title: string) {
       this.pageTitle = title
-    }
-  }
+    },
+  },
 })
