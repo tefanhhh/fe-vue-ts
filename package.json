@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "js-cookie": "^3.0.1",
+    "moment": "^2.29.4",
     "pinia": "^2.0.24",
     "vue": "^3.2.41",
     "vue-router": "^4.1.6",
