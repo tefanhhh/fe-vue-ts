@@ -18,8 +18,10 @@
     </v-card>
   </form>
 </template>
-<style scoped>
-  .form__login {
-    height: calc(100vh - 48px);
+<style lang="scss" scoped>
+  .form {
+    &__login {
+      height: calc(100vh - 48px);
+    }
   }
 </style>
