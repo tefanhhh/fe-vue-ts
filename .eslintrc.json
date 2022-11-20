@@ -17,5 +17,7 @@
     "sourceType": "module"
   },
   "plugins": ["vue", "@typescript-eslint"],
-  "rules": {}
+  "rules": {
+    "vue/multi-words-component-name": ["off"]
+  }
 }
