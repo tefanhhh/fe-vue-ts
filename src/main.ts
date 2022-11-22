@@ -4,8 +4,10 @@ import App from './App.vue'
 
 // Router
 import { router } from './router.config'
+
 // Pinia
 import { createPinia } from 'pinia'
+
 // Vuetify
 import vuetify from './vuetify.config'
 import 'vuetify/styles'
